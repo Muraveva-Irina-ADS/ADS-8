@@ -38,6 +38,7 @@ int Train::getLength() {
       k = 1;
     }
   }
+  return -1;
 }
 int Train::getOpCount() {
   if (countOp == -1) countOp = getLength();
